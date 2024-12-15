@@ -20,6 +20,7 @@ const Contactus = () => {
         <h1 className="text-3xl sm:text-4xl font-bold z-10 animate__animated animate__fadeIn">Contact Us</h1>
       </section>
 
+
       {/* Contact Details Section */}
       <section className="py-16 px-6 sm:px-12">
         <div className="max-w-6xl mx-auto flex flex-col lg:flex-row bg-gradient-to-r from-indigo-300 to-blue-300 p-8 rounded-lg shadow-lg space-y-8 lg:space-y-0 lg:space-x-8">
