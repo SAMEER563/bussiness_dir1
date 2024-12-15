@@ -104,22 +104,21 @@ export default function Home() {
         </div>
 
         {/* --------- Post Card Section --------- */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 mt-10 px-4 sm:px-6 lg:px-8">
-  {filteredPosts.length > 0 ? (
-    filteredPosts.map((post) => (
-      <div
-        key={post.slug}
-        onClick={() => handlePostClick(post.slug)}
-        className="cursor-pointer transform hover:scale-105 transition-all duration-300 bg-white rounded-lg shadow-lg overflow-hidden"
-      >
-        <PostCard key={post._id} post={post} />
-      </div>
-    ))
-  ) : (
-    <p className="col-span-full text-center text-gray-600 text-lg">
-      No posts found matching your search.
-    </p>
-  )}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 cursor-pointer">
+          {filteredPosts.length > 0 ? (
+            filteredPosts.map((post) => (
+              <div 
+                key={post.slug} 
+                onClick={() => handlePostClick(post.slug)} 
+                className="cursor-pointer"
+                >
+                <PostCard key={post._id} post={post}  />
+              </div>
+            ))
+          ) : (
+            <p>No businesses found matching your search.</p>
+          )}
+        </div>
 
         {/* Link to View All Businesses */}
         <div className="mt-10">
