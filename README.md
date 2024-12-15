@@ -12,7 +12,8 @@ Admin Email- sam@gmail.com <br/>
 Password- Sam@123 
 
 
-![image](https://github.com/user-attachments/assets/109be45a-6268-4307-9c1b-1da41f0ba86b)  <br/>
+![image](https://github.com/user-attachments/assets/7fddc99f-8614-4828-bdad-0b8a5af94841)
+ <br/>
 
 <h3>Features</h3>
 User Authentication: Users can register, log in, and log out. <br/>
@@ -102,4 +103,5 @@ npm run dev
 
 ADMIN PAGE
 
-![image](https://github.com/user-attachments/assets/edd408f9-7f0b-4dd0-8a2d-741d24390a9d)
+![image](https://github.com/user-attachments/assets/c8076a0b-2406-4332-83bf-718f6686440c)
+
