@@ -1,7 +1,7 @@
 
 
 
-<h1>InformMe- Using MERN Stack</h1>
+<h1>GetBiz - Using MERN Stack</h1>
 <h3>Overview</h3>
 This project is a business directory website built using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to register, log in, and like and comment on that businesses. It has an admin page in this page admin can manage posts, users, comments and likes.  The website offers a simple, user-friendly interface and is fully responsive.
  <br/>
